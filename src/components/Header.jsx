@@ -1,5 +1,10 @@
-export const Header = () => {
-    return (
-        <Fragment></Fragment>
+
+
+function Header(){
+
+    return(
+        <></>
     )
 }
+
+export default Header;
