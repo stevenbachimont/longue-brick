@@ -3,5 +3,6 @@ header {
 
     background-color: green;
     color: white;
-
+    background-image: url(../assets/herbes.jpg);
+    background-repeat: repeat-x;
 }
