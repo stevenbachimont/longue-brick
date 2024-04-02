@@ -1,4 +1,4 @@
-lombric[
+const lombric = [
     {
         name:"lombric1.0",
         image:"asset/img-lombric/lombric1.0.jpg",
@@ -62,6 +62,8 @@ lombric[
     {
         name:"lombric4.3",
         image:"asset/img-lombric/lombric4.3.jpg",
-    },
+    }
 
 ]
+
+export default lombric

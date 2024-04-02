@@ -1,11 +1,12 @@
-import "./header.css";
-
-function Header() {
 
 
-    return (
-        <p>test Header</p>
-    );
+
+function Header(){
+
+    return(
+        <></>
+    )
+
 }
 
 export default Header;
