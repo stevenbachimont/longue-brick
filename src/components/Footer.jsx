@@ -1,13 +1,10 @@
-import "/components/Footer.css"
 
-function Footer() {
+
+
+function Footer(){
+
     return(
-        <footer>
-            <h2></h2>
-            <ul>
-                <li></li>
-            </ul>
-        </footer>
+        <></>
     )
 
 }
