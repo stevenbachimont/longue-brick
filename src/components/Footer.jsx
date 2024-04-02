@@ -1,5 +1,12 @@
-export const Footer = () => {
-    return (
-        <Fragment></Fragment>
+
+
+
+function Footer(){
+
+    return(
+        <></>
     )
+
 }
+
+export default Footer;
