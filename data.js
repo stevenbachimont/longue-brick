@@ -62,6 +62,6 @@ lombric[
     {
         name:"lombric4.3",
         image:"asset/img-lombric/lombric4.3.jpg",
-    },
+    }
 
 ]
