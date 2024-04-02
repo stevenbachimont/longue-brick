@@ -1,5 +1,11 @@
-export const Header = () => {
+import "./header.css";
+
+function Header() {
+
+
     return (
-        <Fragment></Fragment>
-    )
+        <p>test Header</p>
+    );
 }
+
+export default Header;
