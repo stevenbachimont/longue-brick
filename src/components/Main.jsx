@@ -1,24 +1,62 @@
-import lombric from "../../data";
+// import "./main.css";
+// import "./main-animation.css";
 
-function Main ({lombricName, lombricImage, lombric})  {
-    console.log('%c⧭', 'color: #aa00ff', lombric);
-    for (let i = 0; i < lombric.length; i++){
-
-        console.log('%c⧭', 'color: #e50000', lombric[i]);
-    }
+// import React, { useState } from "react";
 
 
-    // console.log('%c⧭', 'color: #00e600', lombricImage);
-    // console.log('%c⧭', 'color: #ff0000', lombricName);
-    
-    
-        return (
-            <div>
-                <img src={lombric.lombricImage} alt="" />
-                <p>{lombric.lombricName}</p>
-                <p>coucou</p>
-            </div>
-        )
-    }
+// function Main ({ lombric})  {
+//   const [lombricList, setlombricList] = useState(0); 
 
-    export default Main;
+
+//  const click = (lombricIndex) =>{
+//   setlombricList(lombricIndex)
+//   }
+
+
+
+//     return (  
+//         <div className="container">
+//           <img className="image-main" src={lombric[lombricList].image} alt="oups" />
+          
+//           <div class="orbit">
+//           {lombric.map((lombricItem, index) => (
+//             <button className="bouton" key={index} onClick={() => click(index)}>{lombricItem.name}</button>
+//           ))}
+//           </div>
+//         </div>
+//       );
+      
+// }
+
+// export default Main;
+
+
+import React, { useState } from "react";
+import Bouton from "./Bouton";
+
+function Main({ lombric }) {
+  const [lombricList, setLombricList] = useState(0);
+
+  const click = (lombricIndex) => {
+    setLombricList(lombricIndex);
+  };
+
+  return (
+    <div className="container">
+      <img className="image-main" src={lombric[lombricList].image} alt="oups" />
+
+      <div className="orbit">
+        {lombric.map((lombricItem, index) => (
+          <Bouton
+            key={index}
+            index={index}
+            name={lombricItem.name}
+            click={click}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Main;
