@@ -1,8 +1,7 @@
 
 footer {
     background-image: url('src/assets/Capture d’écran 2024-04-02 à 19.37.51.png');
-    display: flex;
-    flex-direction: row;
+    display: block;
     color: #191a27;
     position: fixed;
     bottom: 0;
@@ -14,6 +13,13 @@ footer {
     transition: background-color 0.5s ease, color 0.5s ease;
     border-top-left-radius: 22px;
     border-top-right-radius: 22px;
+}
+
+.flex {
+
+    display: flex;
+    flex-direction: row;
+
 }
 
 footer:hover {
@@ -48,6 +54,7 @@ li:hover {
 
 
 canvas{
-    width:100%; height:100px;
+    width:100%;
+    height:100px;
     background: rgba(21, 21, 21, 0);
 }
