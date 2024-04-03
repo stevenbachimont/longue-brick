@@ -67,7 +67,6 @@ console.dir(document);
             <canvas ref={canvasRef} width={canvasWidth} height={canvasHeight}/>
             <div className="flex">
                 <h2>Title</h2>
-
                 <ul>
                     <li>Item 1</li>
                 </ul>
