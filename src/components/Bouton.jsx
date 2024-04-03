@@ -5,7 +5,8 @@ const Bouton = ({ index, name, click }) => { // Déstructurez les props ici
     const [position, setPosition] = useState({ x: 0, y: 0 });
 
     useEffect(() => {
-        const interval = setInterval(deplacerAleatoirement, 6000);
+        const interval = setInterval(deplacerAleatoirement, 50000);
+        console.log('%c⧭', 'color: #733d00', interval);
 
         return () => clearInterval(interval);
     }, []);
