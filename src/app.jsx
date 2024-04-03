@@ -8,13 +8,12 @@ import lombric from '../data';
 import './app.css'
 
 export function App() {
-console.log('%c⧭', 'color: #00a3cc', lombric);
 
   return (
     <>
 
       <Header />
-      <Main lombricName ={ lombric.name }  lombricImage= { lombric.image } lombric ={lombric}/>
+      <Main lombric ={lombric}/>
       <Footer />
     </>
 
