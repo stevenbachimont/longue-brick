@@ -1,66 +1,66 @@
 const lombric = [
     {
-        name:"lombric1.0",
+        name:"Pascal",
         image:"./src/assets/img-lombric/lombric1.0.jpg",
     },
     {
-        name:"lombric1.1",
+        name:"Adeline",
         image:"./src/assets/img-lombric/lombric1.1.jpg",
     },
     {
-        name:"lombric1.2",
+        name:"The Mikaël",
         image:"./src/assets/img-lombric/lombric1.2.jpg",
     },
     {
-        name:"lombric1.3",
+        name:"Mikaël",
         image:"./src/assets/img-lombric/lombric1.3.jpg",
     },
     {
-        name:"lombric2.0",
+        name:"Mikaël ²",
         image:"./src/assets/img-lombric/lombric2.0.jpg",
     },
     {
-        name:"lombric2.1",
+        name:"Antoine",
         image:"./src/assets/img-lombric/lombric2.1.jpg",
     },
     {
-        name:"lombric2.2",
+        name:"Alexis ",
         image:"./src/assets/img-lombric/lombric2.2.jpg",
     },
     {
-        name:"lombric2.3",
+        name:"Julien",
         image:"./src/assets/img-lombric/lombric2.3.jpg",
     },
     {
-        name:"lombric3.0",
+        name:"Hakim",
         image:"./src/assets/img-lombric/lombric3.0.jpg",
     },
     {
-        name:"lombric3.1",
+        name:"Florine ",
         image:"./src/assets/img-lombric/lombric3.1.jpg",
     },
     {
-        name:"lombric3.2",
+        name:"Audren ",
         image:"./src/assets/img-lombric/lombric3.2.jpg",
     },
     {
-        name:"lombric3.3",
+        name:"Steven",
         image:"./src/assets/img-lombric/lombric3.3.jpg",
     },
     {
-        name:"lombric4.0",
+        name:"Lucas ",
         image:"./src/assets/img-lombric/lombric4.0.jpg",
     },
     {
-        name:"lombric4.1",
+        name:"Stephanie ",
         image:"./src/assets/img-lombric/lombric4.1.jpg",
     },
     {
-        name:"lombric4.2",
+        name:"Martin ",
         image:"./src/assets/img-lombric/lombric4.2.jpg",
     },
     {
-        name:"lombric4.3",
+        name:"David ",
         image:"./src/assets/img-lombric/lombric4.3.jpg",
     }
 

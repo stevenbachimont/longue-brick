@@ -31,11 +31,11 @@
 // export default Main;
 
 
-import React, { useState } from "react";
+
 import Bouton from "./Bouton";
 
-function Main({ lombric }) {
-  const [lombricList, setLombricList] = useState(0);
+function Main({ lombric, lombricList, setLombricList}) {
+  console.log('%c⧭', 'color: #917399', lombric);
 
   const click = (lombricIndex) => {
     setLombricList(lombricIndex);
@@ -44,6 +44,7 @@ function Main({ lombric }) {
   return (
     <div className="container">
       <img className="image-main" src={lombric[lombricList].image} alt="oups" />
+      <p className="">{lombric[lombricList].name}</p>
 
       <div className="orbit">
         {lombric.map((lombricItem, index) => (
