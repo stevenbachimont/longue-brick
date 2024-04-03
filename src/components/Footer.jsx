@@ -2,17 +2,17 @@
 import './Footer.css';
 
 function Footer() {
-
+console.dir(document);
     const canvasRef = useRef(null);
-    const canvasWidth = 1700;
+    const canvasWidth = window.innerWidth;
     const canvasHeight = 400;
     const wormSegments = [];
-    const numSegments = 80;
+    const numSegments = 150;
     const segmentSize = 20;
-    const wormSpeed = 5;
+    const wormSpeed = 8;
     
     for (let i = 0; i < numSegments; i++) {
-        wormSegments.push({ x: canvasWidth / 2, y: canvasHeight / 2 + i * segmentSize });
+        wormSegments.push({ x: canvasWidth / 3, y: canvasHeight / 3 + i * segmentSize });
     }
 
     useEffect(() => {
@@ -21,11 +21,11 @@ function Footer() {
 
         const drawWorm = () => {
             ctx.clearRect(0, 0, canvasWidth, canvasHeight);
-            ctx.fillStyle = '#3d0009';
+            ctx.fillStyle = '#770d1d';
             for (let i = 0; i < wormSegments.length; i++) {
                 const { x, y } = wormSegments[i];
                 ctx.beginPath();
-                ctx.arc(x, y, segmentSize / 2, 0, 2 * Math.PI);
+                ctx.arc(x, y, segmentSize / 1.5, 0, 2 * Math.PI);
                 ctx.fill();
                 ctx.closePath();
             }
@@ -64,12 +64,14 @@ function Footer() {
 
     return (
         <footer>
-
-            <h2>Title</h2>
             <canvas ref={canvasRef} width={canvasWidth} height={canvasHeight}/>
-            <ul>
-                <li>Item 1</li>
-            </ul>
+            <div className="flex">
+                <h2>Title</h2>
+
+                <ul>
+                    <li>Item 1</li>
+                </ul>
+            </div>
         </footer>
     );
 }
