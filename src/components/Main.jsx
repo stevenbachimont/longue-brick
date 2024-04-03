@@ -42,9 +42,10 @@ function Main({ lombric, lombricList, setLombricList}) {
   };
 
   return (
+    <main className="main">
     <div className="container">
       <img className="image-main" src={lombric[lombricList].image} alt="oups" />
-      <p className="">{lombric[lombricList].name}</p>
+      <p className="name">{lombric[lombricList].name}</p>
 
       <div className="orbit">
         {lombric.map((lombricItem, index) => (
@@ -57,6 +58,7 @@ function Main({ lombric, lombricList, setLombricList}) {
         ))}
       </div>
     </div>
+    </main>
   );
 }
 

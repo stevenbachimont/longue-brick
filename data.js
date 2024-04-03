@@ -8,15 +8,15 @@ const lombric = [
         image:"./src/assets/img-lombric/lombric1.1.jpg",
     },
     {
-        name:"The Mikaël",
+        name:"The Michaël",
         image:"./src/assets/img-lombric/lombric1.2.jpg",
     },
     {
-        name:"Mikaël",
+        name:"Mickaël ",
         image:"./src/assets/img-lombric/lombric1.3.jpg",
     },
     {
-        name:"Mikaël ²",
+        name:"Theo",
         image:"./src/assets/img-lombric/lombric2.0.jpg",
     },
     {
